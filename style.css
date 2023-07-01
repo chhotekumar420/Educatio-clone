@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ nav{
+    position: fixed;
+    min-width: 100%;
+ }
+
+  .left img{
+    height: 70px;
+    margin-top: 7px;
+    margin-left: 50px;
+ } 
+ .left select{
+   margin-left: 15px;
+    height: 30px;
+    width: 110px;
+    margin-top: 30px;
+    background-color: #bd13b7;
+    color:white;
+    border-radius: 5px;
+ }
+
+ .left select:hover{
+   background-color: white;
+   color: #bd13b7;
+   border-color: #bd13b7;
+ }
+ .left{
+display: flex;
+
+ }
+ .right{
+display: flex;
+float: right;
+height: 40px;
+margin-top: -50px;
+margin-right: 50px;
+}
+.right button{
+   height: 30px;
+   width: 110px;
+   background-color: #bd13b7;
+   color: white;
+   margin-left: 30px;
+   border-radius: 5px;
+}
+
+.right button:hover{
+   background-color: white;
+   color: #bd13b7;
+   border-color: #bd13b7;
+}
+
+.right img button{
+    height: 20px;
+    width: 10px;
+}
+
+.footer{
+   display: flex;
+   justify-content: space-between;
+
+}
+
+.left1 h1{
+   margin-top: 300px;
+   margin-left: 50px;
+   margin-bottom: 30px;
+   font-size: 50px;
+}
+.left1 p{
+   margin-left: 50px;
+   font-size: 30px;
+}
+
+.left1 button{
+   margin-left: 50px;
+   margin-top: 30px;
+   height: 50px;
+   width: 170px;
+   background-color: hsl(302, 82%, 41%);
+   color: white;
+   border-radius: 5px;
+}
+
+.left1 button:hover{
+   background-color: white;
+   color: #bd13b7;
+   border-color: #bd13b7;
+}
+
+.right1 img{
+   margin-top: 150px;
+    height: 500px;
+    width: 500px;
+    margin-right: 50px;
+}
+
+.image-button1{
+   display: flex;
+   justify-content: space-between;
+   position: absolute;
+   margin-top: -530px;
+   margin-left: 110px;
+   height: 95px;
+    width: 95px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 360px;
+    background-color: white;
+    color: #bd13b7;
+    border: none; 
+    box-shadow: 0 0 6px 0.2rem rgb(178 178 178 / 16%);
+    
+}
+
+.image-button2{
+   display: flex;
+   justify-content: space-between;
+   position: absolute;
+   margin-top: -530px;
+   margin-left: 325px;
+   height: 95px;
+    width: 95px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 360px;
+    background-color: white;
+    color: #bd13b7;
+    border: none;
+    box-shadow: 0 0 6px 0.2rem rgb(178 178 178 / 16%);
+}
+
+.image-button3{
+   display: flex;
+   justify-content: space-between;
+   position: absolute;
+   margin-top: -370px;
+   margin-left: -15px;
+   height: 95px;
+    width: 95px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 360px;
+    background-color: white;
+    color: #bd13b7;
+    border:  none;
+    box-shadow: 0 0 6px 0.2rem rgb(178 178 178 / 16%);
+}
+
+.image-button4{
+   display: flex;
+   justify-content: space-between;
+   position: absolute;
+   margin-top: -370px;
+   margin-left: 440px;
+   height: 95px;
+    width: 95px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 360px;
+    background-color: white;
+    color: #bd13b7;
+    border:  none;
+    box-shadow: 0 0 6px 0.2rem rgb(178 178 178 / 16%);
+}
+
+
+.image-button5{
+   display: flex;
+   justify-content: space-between;
+   position: absolute;
+   margin-top: -190px;
+   margin-left: -10px;
+   height: 95px;
+    width: 95px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 360px;
+    background-color: white;
+    color: #bd13b7;
+    border:  none;
+    box-shadow: 0 0 6px 0.2rem rgb(178 178 178 / 16%);
+}
+
+.image-button6{
+   display: flex;
+   justify-content: space-between;
+   position: absolute;
+   margin-top: -190px;
+   margin-left: 420px;
+   height: 95px;
+    width: 95px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 360px;
+    background-color: white;
+    color: #bd13b7;
+    border:  none;
+    box-shadow: 0 0 6px 0.2rem rgb(178 178 178 / 16%);
+}
+
+/* hover */
+.image-button1:hover{
+   background-color: #bd13b7;
+   color: white;
+}
+
+.image-button2:hover{
+   background-color: #bd13b7;
+   color: white;
+}
+
+.image-button3:hover{
+   background-color: #bd13b7;
+   color: white;
+}
+
+.image-button4:hover{
+   background-color: #bd13b7;
+   color: white;
+}
+
+.image-button5:hover{
+   background-color: #bd13b7;
+   color: white;
+}
+.image-button6:hover{
+   background-color: #bd13b7;
+   color: white;
+}
+
